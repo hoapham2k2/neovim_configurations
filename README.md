@@ -4,6 +4,13 @@
 - Neovim version: 0.9.5
 - OS: Windows 10 (64-bit)
 
+# Pre-requisites
+- Node.js
+    - global packages: `neovim` <!-- neovim in order to use the node plugins, like coc, etc. --
+- Python
+    - `pynvim` <!-- pynvim in order to use the python plugins, like deoplete, etc. --
+- Neovim
+
 # Installation
 
 ## 1. Preparing the plugin manager (I use [vim-plug](https://github.com/junegunn/vim-plug)).
